@@ -1,61 +1,123 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
-}
-
-#intestazione{
-font-size: 300%;
-background-color: rgb(255, 255, 255);
-}
-
-main{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  header {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    line-height: 80px;
+  }
+  img {
+    vertical-align: middle;
+  }
+  .text-logo {
+    font-size: 30px;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  
+  main {
     background-color: rgb(177, 174, 174, 0.3);
-    width: 80%;
-    margin-left: 10px;
-    border-radius: 4px;
-    padding: 10px;
-}
-
-#contenitore-white{
-background-color: rgb(255, 255, 255);
-margin-left: 130px;
-width: 500px;
-height: 500px;
-margin-top: 20px;
-border-width: 1px;
-border-style: solid;
-border-radius: 10px;
-padding: 20px;
-border-color: white;
-    
-}
-#button{
+    padding: 20px;
+  }
+  
+  .contfull{
+      width: 80%;
+      margin: 0 auto;
+      border-radius: 4px;
+      padding: 10px;
+  }
+  
+  .contenitore-btn {
+    width: 100%;
+    background-color: white;
+    line-height: 50px;
+    margin-bottom: 3px;
+    padding: 10px 30px;
+  }
+  
+  .button {
     background-color: #47adf1;
     display: inline;
     color: white;
-    margin-left: 40px;
+    margin-left: 15px;
     text-align: center;
     border-radius: 7px;
     padding: 4px;
-}
-
-#button2{
-    color: gray;
-    display: inline;
+    vertical-align: middle;
+  }
+  .button-grey {
+    background-color: lightgrey;
+    border: 1px solid grey;
+  }
+  
+  .cont-main-ul {
     background-color: white;
-    margin-left: 10px;
-    width: 70px;
-    height: 20px;
-    border-radius: 7px;
-    border-style: solid;
-    border-color: rgb(128, 128, 128, 0.2);
-    padding: 4px;
+    padding: 50px 30px;
+  }
+  
+  .cont-task {
+    margin-bottom: 50px;
+  }
+  
+  .cont-task > span {
+    font-size: 40px;
+  }
+  
+  .title-ul {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  
+  .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid green;
+    display: inline-block;
     text-align: center;
-}
-
-hr{
-    margin-top: 10px;
-    color: gray;
-    margin-left: -21px;
-    margin-right: -21px;
-}
+    color: green;
+    margin-right: 10px;
+    box-sizing: content-box;
+  }
+  
+  .label {
+    background-color: rgb(50, 135, 233);
+    border-radius: 12px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .label-viola {
+    background-color: violet;
+  }
+  
+  .label-verde {
+    background-color: green;
+  }
+  
+  .label-arancione {
+    background-color: orange;
+  }
+  
+  .label-rosa {
+    background-color: pink;
+  }
+  
+  .label-verde2 {
+    background-color: greenyellow;
+  }
+  

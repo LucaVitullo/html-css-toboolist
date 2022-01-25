@@ -1,37 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Toobolist</title>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Roboto+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <!--intestazione-->
-    <header id="intestazione">
-        <img src="img/logo copia.png" alt="Logo"> Toobolist
+    <header>
+      <img src="img/logo copia.png" alt="Logo" />
+      <span class="text-logo">Toobolist</span>
     </header>
     <!--Contenitore-->
     <main>
-        <div id="contenitore-white">
-                <div id="button">
-                Add task
-                </div>
-                <div id="button2">
-                Add section
-                </div>
-                <hr>
-                <!--Inizio Task-->
-                <div>
-                    New Task
-                </div>
-                <!--/Task-->
+      <div class="contfull">
+        <!--contenitore btn-->
+        <div class="contenitore-btn">
+          <div class="button">Add task</div>
+          <div class="button-grey button">Add section</div>
         </div>
+        <!--contenitore btn-->
 
+        <!--contenitore generale ul-->
+        <div class="cont-main-ul">
+          <div class="cont-task">
+            <span>&#9662;</span>
+            <span class="title-ul">New task</span>
+            <ul>
+              <li>
+                <span class="circle">&#10003;</span>Quarterly Newsletter<span
+                  class="label"
+                  >Editorial</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="cont-task">
+            <span>&#9662;</span>
+            <span class="title-ul">Today</span>
+            <ul>
+              <li>
+                <span class="circle">&#10003;</span>Recruiting blo post<span
+                  class="label"
+                  >Editorial</span
+                >
+              </li>
+              <li>
+                <span class="circle">&#10003;</span>Mobile app luaunch<span
+                  class="label-viola label"
+                  >Q1 Goals</span
+                >
+              </li>
+              <li>
+                <span class="circle">&#10003;</span>Interview Jhon H.<span
+                  class="label-verde label"
+                  >Rectruting</span
+                >
+              </li>
+              <li>
+                <span class="circle">&#10003;</span>Summit update to mobile
+                storefronts<span class="label-arancione label">Mobile</span>
+              </li>
+            </ul>
+          </div>
+          <div class="cont-task">
+            <span>&#9662;</span>
+            <span class="title-ul">Upcoming</span>
+            <ul>
+              <li>
+                <span class="circle">&#10003;</span>Schedule meeting with
+                Alex<span class="label">Editorial</span>
+              </li>
+              <li>
+                <span class="circle">&#10003;</span>Homepage refresh<span
+                  class="label-rosa label"
+                  >Website</span
+                >
+              </li>
+              <li>
+                <span class="circle">&#10003;</span>Onboard new Sales team
+                members<span class="label-verde2 label">Sales</span>
+              </li>
+              <li>
+                <span class="circle">&#10003;</span>Review editorial
+                calendar<span class="label">Editorial</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--contenitore generale ul-->
+      </div>
     </main>
-</body>
+  </body>
 </html>
