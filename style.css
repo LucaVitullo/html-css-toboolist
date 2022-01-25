@@ -1,7 +1,27 @@
 *{
     box-sizing: border-box;
+    margin: 0%;
 }
 
 #intestazione{
 font-size: 300%;
+background-color: rgb(255, 255, 255);
+}
+
+main{
+    background-color: rgb(177, 174, 174, 0.3);
+    width: 100%;
+}
+
+#contenitore-white{
+background-color: rgb(255, 255, 255);
+margin-left: 130px;
+width: 500px;
+height: 500px;
+margin-top: 20px;
+border-width: 1px;
+border-style: solid;
+border-radius: 10px;
+padding: 20px;
+    
 }
