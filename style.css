@@ -29,17 +29,30 @@ padding: 20px;
     
 }
 
+#bottoni{
+    border-bottom: solid;
+}
+
 #button{
     background-color: #47adf1;
     display: inline;
     color: white;
-    width: 70px;
-    height: 20px;
     margin-left: 40px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 7px;
+    padding: 4px;
 }
 
 #button2{
-    
+    color: gray;
+    display: inline;
+    background-color: white;
+    margin-left: 10px;
+    width: 70px;
+    height: 20px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(128, 128, 128, 0.2);
+    padding: 4px;
+    text-align: center;
 }
