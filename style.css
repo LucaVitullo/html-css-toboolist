@@ -26,13 +26,9 @@ border-width: 1px;
 border-style: solid;
 border-radius: 10px;
 padding: 20px;
+border-color: white;
     
 }
-
-#bottoni{
-    border-bottom: solid;
-}
-
 #button{
     background-color: #47adf1;
     display: inline;
@@ -55,4 +51,11 @@ padding: 20px;
     border-color: rgb(128, 128, 128, 0.2);
     padding: 4px;
     text-align: center;
+}
+
+hr{
+    margin-top: 10px;
+    color: gray;
+    margin-left: -21px;
+    margin-right: -21px;
 }
